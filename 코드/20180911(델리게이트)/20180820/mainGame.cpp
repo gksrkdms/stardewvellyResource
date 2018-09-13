@@ -14,7 +14,7 @@ void mainGame::setBackBuffer()
 HRESULT mainGame::init()
 {
 	hdc = GetDC(g_hWnd);
-
+	//¾È³çÇÏ¼¼¿ä
 	//HANDLE hTimer = (HANDLE)SetTimer(g_hWnd, 1, 10, NULL);
 	KEYMANAGER->init();
 	IMAGEMANAGER->init();
